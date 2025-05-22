@@ -1,9 +1,10 @@
 import "../css/page/Gallery.scss";
+import { Link } from "react-router-dom";
 import { BiAlignLeft } from "react-icons/bi";
 import { useState } from "react";
 
 import Nav from "../components/Nav";
-import Gal3 from "../assets/util/Gal3";
+import Gal2 from "../assets/util/AboutGal";
 
 export default function Page2() {
   const [clicked, setClicked] = useState(false);
@@ -17,8 +18,24 @@ export default function Page2() {
         <div className="g-icon" onClick={() => setClicked(!clicked)}>
           <BiAlignLeft />
         </div>
+
+        <div className="about">
+
+          <h1 id="about-about">
+            Home renovation experts<br />
+            Located in Ottawa Ontario<br />
+            Specializing in quality workmanship<br />
+          </h1>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <Link id="about-link" to="/inquire">Book a free consultation today</Link>
+        </div>
         <div className="photos">
-          <Gal3 />
+          <Gal2 />
         </div>
       </div>
     </div>

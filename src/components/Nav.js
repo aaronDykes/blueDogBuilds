@@ -7,8 +7,7 @@ import { useState } from "react";
 import Drop from "./Drop";
 import Contact from "./Contact";
 
-export default function Nav({ clicked, setClicked })
-{
+export default function Nav({ clicked, setClicked }) {
   const [vert, setVertical] = useState(false);
   const [contact, setContact] = useState(false);
 
@@ -21,17 +20,11 @@ export default function Nav({ clicked, setClicked })
         <Link to="/">home</Link>
       </div>
       <br />
-      <div className="n-item">
-        <Link to="/Pattern">pattern</Link>
-      </div>
 
       <div className="n-item gallery">
-        <Link onClick={() => setVertical(!vert)}>gallery</Link>
-        <RiArrowDownSLine
-          onClick={() => setVertical(!vert)}
-          className={`drop-btn ${!vert ? "vertical" : ""}`}
-        />
+        <Link to="/about">about</Link>
       </div>
+
       <Drop vert={vert} />
 
       <div className="n-item gallery">
@@ -41,7 +34,12 @@ export default function Nav({ clicked, setClicked })
           className={`drop-btn ${!contact ? "vertical" : ""}`}
         />
       </div>
+
       <Contact contact={contact} />
+
+      <div className="n-item gallery">
+        <Link to="/privacy">privacy</Link>
+      </div>
     </div>
   );
 }

@@ -1,7 +1,9 @@
 import "../css/page/Home.scss";
+import "../css/page/Gallery.scss";
 import Nav from "../components/Nav";
 import { BiAlignLeft } from "react-icons/bi";
 import { useState } from "react";
+import BlueDogBuilds from "../assets/util/Gal3";
 
 export default function Home() {
   const [clicked, setClicked] = useState(false);
@@ -17,13 +19,10 @@ export default function Home() {
           <BiAlignLeft />
         </div>
 
-        <div className="h-name">
-          <h1 className="h-first">Aaron</h1>
-          <h1 className="h-last">Dykes</h1>
+        <div className="photos">
+          <BlueDogBuilds />
         </div>
 
-        <footer />
-        <footer />
       </div>
     </div>
   );

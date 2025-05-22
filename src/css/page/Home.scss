@@ -3,7 +3,7 @@
 
 
 #home {
-  @include flex(0, stretch, $l_orange);
+  @include flex(0, stretch, $blue);
 }
 
 
@@ -16,7 +16,8 @@
   @include txtDecoration(5rem, bold);
   text-align: center;
   margin: 5rem;
-  color: white;
+  margin-top: -2rem;
+  color: $cream;
 
   .h-first {
     animation: slideInRight 2s ease-out;
@@ -26,11 +27,11 @@
   }
 }
 .h-content-visible {
-  @include flexChild(1 1 100%, column, space-between, 0, $l_orange);
+  @include flexChild(1 1 100%, column, space-between, 0, $blue);
 }
 
 .h-content-hidden {
-  @include flexChild(1 1 100%, column, space-between, 0, $l_orange);
+  @include flexChild(1 1 100%, column, space-between, 0, $blue);
 }
 
 .h-nav-visible {

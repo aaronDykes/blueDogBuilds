@@ -10,9 +10,6 @@ export default function Nav({ vert }) {
       <div className="page">
         <Link to="/two">two</Link>
       </div>
-      <div className="page">
-        <Link to="/three">three</Link>
-      </div>
     </div>
   );
 }

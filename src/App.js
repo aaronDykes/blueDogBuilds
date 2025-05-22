@@ -1,20 +1,20 @@
 import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
-import Pattern from "./pages/Pattern";
 
-import One from "./pages/One";
-import Two from "./pages/Two";
-import Three from "./pages/Three";
+import Gallery from "./pages/Gallery";
+import Inquire from "./pages/Inquire";
+import Privacy from "./pages/Privacy";
+import About from "./pages/About";
 
 export default function App() {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/one" element={<One />} />
-        <Route path="/two" element={<Two />} />
-        <Route path="/three" element={<Three />} />
-        <Route path="/Pattern" element={<Pattern />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/gallery" element={< Gallery />} />
+        <Route path="/inquire" element={<Inquire />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </div>
   );

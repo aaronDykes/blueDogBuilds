@@ -3,7 +3,10 @@ $m_grey: rgba(74, 74, 74, 0.8);
 $l_grey: rgba(145, 145, 145);
 $vl_grey: rgba(245, 245, 245);
 $l_orange: rgba(255, 149, 117);
+$d_orange: rgb(133, 57, 34);
 $b_blue: rgba(161, 193, 255);
+$cream: #D5d1C1;
+$blue: #5f81cb;
 
 @mixin linkDecoration($size, $weight) {
   color: $m_grey;
@@ -85,3 +88,4 @@ h2 {
   color: $m_grey;
   @include txtDecoration(3rem, bold);
 }
+

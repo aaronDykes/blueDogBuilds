@@ -11,10 +11,9 @@
 .photos {
   @include flex(row, center, 0, wrap, center);
   text-align: center;
-  margin: 3rem;
   img {
-    width: 10%;
-    height: 10%;
+    width: 100%;
+    height: 100%;
   }
 }
 .image {
@@ -34,4 +33,15 @@
 
 .g-nav-hidden {
   display: none;
+}
+.about {
+
+  text-align: center;
+
+  #about-about {
+    @include txtDecoration(7rem, bold);
+    color: $d_orange;
+    margin: 1rem;
+  }
+  
 }
