@@ -32,7 +32,10 @@ export default function Page2() {
           <br />
           <br />
           <br />
-          <Link id="about-link" to="/inquire">Book a free consultation today</Link>
+          {/* <Link id="about-link" to="/">Book a free consultation today</Link> */}
+          <div className="page">
+            <Link to="/inquire">Book a free consultation today</Link>
+          </div>
         </div>
         <div className="photos">
           <Gal2 />

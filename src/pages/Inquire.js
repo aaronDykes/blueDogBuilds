@@ -1,9 +1,10 @@
 import "../css/page/Gallery.scss";
+import { Link } from "react-router-dom";
 import { BiAlignLeft } from "react-icons/bi";
 import { useState } from "react";
 
 import Nav from "../components/Nav";
-import Gal1 from "../assets/util/Gal1";
+import Email from "../components/Email";
 
 export default function Page2() {
   const [clicked, setClicked] = useState(false);
@@ -17,9 +18,11 @@ export default function Page2() {
         <div className="g-icon" onClick={() => setClicked(!clicked)}>
           <BiAlignLeft />
         </div>
-        {/* <div className="photos">
-          <Gal1 />
-        </div> */}
+
+        <div className="form">
+          <Email />
+        </div>
+
       </div>
     </div>
   );

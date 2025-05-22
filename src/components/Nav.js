@@ -25,6 +25,8 @@ export default function Nav({ clicked, setClicked }) {
         <Link to="/about">about</Link>
       </div>
 
+
+
       <Drop vert={vert} />
 
       <div className="n-item gallery">

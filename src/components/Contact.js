@@ -6,14 +6,11 @@ export default function Nav({ contact }) {
   return (
     <div className={`drop-content-${contact ? "visible" : "hidden"}`}>
       <div className="page">
-        <Link to="/inquire">
-          inquire
-        </Link>
+        <Link to="/inquire">inquire</Link>
       </div>
       <div className="page">
         <a href="mailto:joel@bluedogbuilds.ca">email</a>
       </div>
-
       <div className="page">
         <h2>613-858-3021</h2>
       </div>
