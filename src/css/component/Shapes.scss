@@ -1,0 +1,25 @@
+@import "../style.scss";
+
+@mixin align {
+  text-align: center;
+  font-weight: bold;
+  h2 {
+    font-size: 5rem;
+    color: $l_orange;
+  }
+  .Pat {
+    margin: 3rem;
+    color: $b_blue;
+  }
+}
+.Diamond {
+  @include align;
+}
+
+.Rectangle {
+  @include align;
+}
+
+.Triangle {
+  @include align;
+}
