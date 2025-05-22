@@ -28,7 +28,6 @@ textarea {
 .form_input {
   @include txtDecoration(1rem, lighter);
   padding: 1rem;
-  border-radius: 0.5rem;
 
 }
 
@@ -47,3 +46,9 @@ textarea {
   display: none;
 }
 
+.h-form-visible {
+  color: $d_orange;
+}
+.h-form-hidden {
+  visibility: hidden;
+}
