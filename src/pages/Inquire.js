@@ -17,9 +17,9 @@ export default function Page2() {
         <div className="g-icon" onClick={() => setClicked(!clicked)}>
           <BiAlignLeft />
         </div>
-        <div className="photos">
+        {/* <div className="photos">
           <Gal1 />
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -23,6 +23,9 @@ export default function Home() {
           <BlueDogBuilds />
         </div>
 
+        <footer>
+        </footer>
+
       </div>
     </div>
   );
