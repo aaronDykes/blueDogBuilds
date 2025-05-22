@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/blueDogBuilds/static/css/main.387ba046.css",
+    "main.js": "/blueDogBuilds/static/js/main.ee7450a3.js",
+    "static/media/6.jpg": "/blueDogBuilds/static/media/6.7e256294ec2ba2a011fd.jpg",
+    "static/media/4.jpg": "/blueDogBuilds/static/media/4.79d76a342128f7276954.jpg",
+    "static/media/1.jpg": "/blueDogBuilds/static/media/1.0be9029cf141057bc6ff.jpg",
+    "static/media/2.jpg": "/blueDogBuilds/static/media/2.838cbade325214b4eb27.jpg",
+    "static/media/3.jpg": "/blueDogBuilds/static/media/3.e81715590cf65a3fe7d6.jpg",
+    "static/media/7.jpg": "/blueDogBuilds/static/media/7.36e6c26421b8ff2419e5.jpg",
+    "static/media/5.jpg": "/blueDogBuilds/static/media/5.eb76c085621dc8e4320c.jpg",
+    "static/media/amgphoto-0068-1-1024x682.png": "/blueDogBuilds/static/media/amgphoto-0068-1-1024x682.776c40c40ba8b586db16.png",
+    "static/media/BDB_Arch-Logo_2-Colour-972x1024.png": "/blueDogBuilds/static/media/BDB_Arch-Logo_2-Colour-972x1024.c20b621a58e559519e60.png",
+    "index.html": "/blueDogBuilds/index.html",
+    "main.387ba046.css.map": "/blueDogBuilds/static/css/main.387ba046.css.map",
+    "main.ee7450a3.js.map": "/blueDogBuilds/static/js/main.ee7450a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.387ba046.css",
+    "static/js/main.ee7450a3.js"
+  ]
+}
