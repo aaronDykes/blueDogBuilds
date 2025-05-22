@@ -11,10 +11,9 @@
 .photos {
   @include flex(row, center, 0, wrap, center);
   text-align: center;
-  margin: 3rem;
   img {
-    width: 10%;
-    height: 10%;
+    width: 100%;
+    height: 100%;
   }
 }
 .image {
