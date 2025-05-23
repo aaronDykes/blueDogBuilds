@@ -5,13 +5,13 @@ import "../css/component/Drop.scss";
 export default function Nav({ contact }) {
   return (
     <div className={`drop-content-${contact ? "visible" : "hidden"}`}>
-      <div className="page">
-        <Link to="/inquire">inquire</Link>
-      </div>
       <div className="page" id="icon">
         <Link to="https://www.instagram.com/bluedogbuilds/">
           <IoLogoInstagram />
         </Link>
+      </div>
+      <div className="page">
+        <Link to="/inquire">inquire</Link>
       </div>
       <div className="page">
         <h2>613-858-3021</h2>
