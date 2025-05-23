@@ -52,3 +52,7 @@ textarea {
 .h-form-hidden {
   visibility: hidden;
 }
+
+#privyLink {
+  @include txtDecoration(1rem, bold);
+}

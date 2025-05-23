@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import emailjs from '@emailjs/browser';
 import "../css/component/Email.scss";
@@ -139,6 +140,17 @@ export const Email = () => {
         placeholder='Message' required />
       <br />
       <br />
+
+      <Link id="privyLink" to="/privacy">Please ensure you have read and agreed to our privacy policy</Link>
+      <br />
+      <input
+        className="form_input"
+        type="checkbox"
+        required />
+
+      <br />
+      <br />
+
       <input className="form_input" type="submit" value="Send" />
     </form >
   );
