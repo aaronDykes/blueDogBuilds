@@ -28,6 +28,7 @@ export const Email = () => {
 
   const handleChange = (event) => {
     let val = event.target.value;
+    event.preventDefault();
     switch (event.target.placeholder) {
       case "Name":
         setName(val);

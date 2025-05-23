@@ -8,16 +8,16 @@ export default function Nav({ contact }) {
       <div className="page">
         <Link to="/inquire">inquire</Link>
       </div>
-      <div className="page">
-        <a href="mailto:joel@bluedogbuilds.ca">email</a>
-      </div>
-      <div className="page">
-        <h2>613-858-3021</h2>
-      </div>
       <div className="page" id="icon">
         <Link to="https://www.instagram.com/bluedogbuilds/">
           <IoLogoInstagram />
         </Link>
+      </div>
+      <div className="page">
+        <h2>613-858-3021</h2>
+      </div>
+      <div className="page">
+        <a href="mailto:joel@bluedogbuilds.ca">joel@bluedogbuilds.ca</a>
       </div>
     </div >
   );
