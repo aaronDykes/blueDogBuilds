@@ -6,6 +6,53 @@ import "../css/component/Email.scss";
 export const Email = () => {
   const form = useRef();
 
+
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [address, setAddress] = useState('');
+  const [projectType, setProjectType] = useState('');
+  const [timeline, setTimeline] = useState('');
+  const [budget, setBudget] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = (event) => {
+    setName(''); // Clear the input field
+    setEmail(''); // Clear the input field
+    setAddress(''); // Clear the input field
+    setBudget(''); // Clear the input field
+    setProjectType(''); // Clear the input field
+    setTimeline('');
+    setMessage('');
+  };
+
+  const handleChange = (event) => {
+    let val = event.target.value;
+    switch (event.target.placeholder) {
+      case "Name":
+        setName(val);
+        break;
+      case "Email":
+        setEmail(val);
+        break;
+      case "Address":
+        setAddress(val);
+        break;
+      case "Budget":
+        setBudget(val);
+        break;
+      case "Project Type":
+        setProjectType(val);
+        break;
+      case "Timeline":
+        setTimeline(val);
+        break;
+      case "Message":
+        setMessage(val);
+        break;
+    }
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -21,58 +68,17 @@ export const Email = () => {
           console.log('FAILED...', error.text);
         },
       );
-  };
+    handleSubmit();
 
-
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [address, setAddress] = useState('');
-  const [projectType, setProjectType] = useState('');
-  const [timeline, setTimeline] = useState('');
-  const [budget, setBudget] = useState('');
-  const [message, setMessage] = useState('');
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    setName(''); // Clear the input field
-    setEmail(''); // Clear the input field
-    setAddress(''); // Clear the input field
-    setBudget(''); // Clear the input field
-    setProjectType(''); // Clear the input field
-    setTimeline('');
-    setMessage('');
   };
-
-  const handleNameChange = (event) => {
-    setName(event.target.value);
-  };
-  const handleEmailChange = (event) => {
-    setEmail(event.target.value);
-  };
-  const handleAddressChange = (event) => {
-    setAddress(event.target.value);
-  };
-  const handleProjectChange = (event) => {
-    setProjectType(event.target.value);
-  };
-  const handleTimelineChange = (event) => {
-    setTimeline(event.target.value);
-  };
-  const handleBudgetChange = (event) => {
-    setBudget(event.target.value);
-  };
-  const handleMessageChange = (event) => {
-    setMessage(event.target.value);
-  };
-
   return (
 
-    <form id="form" ref={form} onSubmit={sendEmail && handleSubmit} >
+    <form id="form" ref={form} onSubmit={sendEmail} >
       <input className="form_input"
         placeholder='Name'
         type="text"
         value={name}
-        onChange={handleNameChange}
+        onChange={handleChange}
         name="from_name" required />
       <br />
       <br />
@@ -81,7 +87,7 @@ export const Email = () => {
         type="email"
         name="from_email"
         value={email}
-        onChange={handleEmailChange}
+        onChange={handleChange}
         placeholder='Email'
         required />
       <br />
@@ -91,7 +97,7 @@ export const Email = () => {
         type="text"
         name="address"
         value={address}
-        onChange={handleAddressChange}
+        onChange={handleChange}
         placeholder='Address'
         required />
       <br />
@@ -100,7 +106,7 @@ export const Email = () => {
         className="form_input"
         placeholder='Project Type'
         value={projectType}
-        onChange={handleProjectChange}
+        onChange={handleChange}
         name="project_type" />
       <br />
       <br />
@@ -109,7 +115,7 @@ export const Email = () => {
         type="text"
         name="time_line"
         value={timeline}
-        onChange={handleTimelineChange}
+        onChange={handleChange}
         placeholder="Timeline"
         required />
       <br />
@@ -119,7 +125,7 @@ export const Email = () => {
         type="text"
         name="budget"
         value={budget}
-        onChange={handleBudgetChange}
+        onChange={handleChange}
         placeholder='Budget' />
       <br />
       <br />
@@ -128,12 +134,12 @@ export const Email = () => {
         id="data"
         name="message"
         value={message}
-        onChange={handleMessageChange}
+        onChange={handleChange}
         placeholder='Message' required />
       <br />
       <br />
       <input className="form_input" type="submit" value="Send" />
-    </form>
+    </form >
   );
 };
 
