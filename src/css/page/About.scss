@@ -39,7 +39,7 @@
   text-align: center;
 
   #about-about {
-    @include txtDecoration(7rem, bold);
+    @include txtDecoration(4rem, bold);
     color: $d_orange;
     margin: 1rem;
   }
