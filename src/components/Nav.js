@@ -26,6 +26,13 @@ export default function Nav({ clicked, setClicked }) {
       </div>
 
 
+      <div className="n-item gallery">
+        <Link onClick={() => setVertical(!vert)}>projects</Link>
+        <RiArrowDownSLine
+          onClick={() => setVertical(!vert)}
+          className={`drop-btn ${!vert ? "vertical" : ""}`}
+        />
+      </div>
 
       <Drop vert={vert} />
 
