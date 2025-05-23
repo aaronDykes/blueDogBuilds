@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/blueDogBuilds/static/css/main.20d75c0f.css",
+    "main.css": "/blueDogBuilds/static/css/main.edaf5af2.css",
     "main.js": "/blueDogBuilds/static/js/main.846ca0a3.js",
     "static/media/j.jpg": "/blueDogBuilds/static/media/j.f6f47d56b1d567854646.jpg",
     "static/media/i.jpg": "/blueDogBuilds/static/media/i.dd96e5ab14f52506593e.jpg",
@@ -29,11 +29,11 @@
     "static/media/amgphoto-0068-1-1024x682.png": "/blueDogBuilds/static/media/amgphoto-0068-1-1024x682.776c40c40ba8b586db16.png",
     "static/media/BDB_Arch-Logo_2-Colour-972x1024.png": "/blueDogBuilds/static/media/BDB_Arch-Logo_2-Colour-972x1024.c20b621a58e559519e60.png",
     "index.html": "/blueDogBuilds/index.html",
-    "main.20d75c0f.css.map": "/blueDogBuilds/static/css/main.20d75c0f.css.map",
+    "main.edaf5af2.css.map": "/blueDogBuilds/static/css/main.edaf5af2.css.map",
     "main.846ca0a3.js.map": "/blueDogBuilds/static/js/main.846ca0a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.20d75c0f.css",
+    "static/css/main.edaf5af2.css",
     "static/js/main.846ca0a3.js"
   ]
 }
