@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/blueDogBuilds/static/css/main.f2ca8a6e.css",
-    "main.js": "/blueDogBuilds/static/js/main.893355b3.js",
+    "main.js": "/blueDogBuilds/static/js/main.8ca8be34.js",
     "static/media/amgphoto-0068-1-1024x682.png": "/blueDogBuilds/static/media/amgphoto-0068-1-1024x682.776c40c40ba8b586db16.png",
     "static/media/BDB_Arch-Logo_2-Colour-972x1024.png": "/blueDogBuilds/static/media/BDB_Arch-Logo_2-Colour-972x1024.c20b621a58e559519e60.png",
     "index.html": "/blueDogBuilds/index.html",
     "main.f2ca8a6e.css.map": "/blueDogBuilds/static/css/main.f2ca8a6e.css.map",
-    "main.893355b3.js.map": "/blueDogBuilds/static/js/main.893355b3.js.map"
+    "main.8ca8be34.js.map": "/blueDogBuilds/static/js/main.8ca8be34.js.map"
   },
   "entrypoints": [
     "static/css/main.f2ca8a6e.css",
-    "static/js/main.893355b3.js"
+    "static/js/main.8ca8be34.js"
   ]
 }
