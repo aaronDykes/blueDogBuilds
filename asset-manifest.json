@@ -1,15 +1,39 @@
 {
   "files": {
-    "main.css": "/blueDogBuilds/static/css/main.f2ca8a6e.css",
-    "main.js": "/blueDogBuilds/static/js/main.afb0e87a.js",
+    "main.css": "/blueDogBuilds/static/css/main.047d3817.css",
+    "main.js": "/blueDogBuilds/static/js/main.8e70fedb.js",
+    "static/media/j.jpg": "/blueDogBuilds/static/media/j.f6f47d56b1d567854646.jpg",
+    "static/media/i.jpg": "/blueDogBuilds/static/media/i.dd96e5ab14f52506593e.jpg",
+    "static/media/v.jpg": "/blueDogBuilds/static/media/v.5c10cded84018977230c.jpg",
+    "static/media/g.jpg": "/blueDogBuilds/static/media/g.72b212c6b9d819e7f644.jpg",
+    "static/media/e.jpg": "/blueDogBuilds/static/media/e.cca4027bb6d63aaecafc.jpg",
+    "static/media/z.jpg": "/blueDogBuilds/static/media/z.11820203afba535ce380.jpg",
+    "static/media/d.jpg": "/blueDogBuilds/static/media/d.eb7e6e12ae23658f268a.jpg",
+    "static/media/u.jpg": "/blueDogBuilds/static/media/u.8f42dc1fcfd6fd976dec.jpg",
+    "static/media/b.jpg": "/blueDogBuilds/static/media/b.8c43e127309ebbafdf71.jpg",
+    "static/media/l.jpg": "/blueDogBuilds/static/media/l.6d6fa7c9ce857e1bb2d4.jpg",
+    "static/media/f.jpg": "/blueDogBuilds/static/media/f.64923e13a7579a40b385.jpg",
+    "static/media/c.jpg": "/blueDogBuilds/static/media/c.bbe41e332268e76ef900.jpg",
+    "static/media/a.jpg": "/blueDogBuilds/static/media/a.b37f26a2626d88550e84.jpg",
+    "static/media/m.jpg": "/blueDogBuilds/static/media/m.70145601a9b78e579399.jpg",
+    "static/media/n.jpg": "/blueDogBuilds/static/media/n.b24d69b69a92a94fd936.jpg",
+    "static/media/s.jpg": "/blueDogBuilds/static/media/s.49482d9a00bc6c7df15f.jpg",
+    "static/media/h.jpg": "/blueDogBuilds/static/media/h.ca99c8f0d9dae116178f.jpg",
+    "static/media/t.jpg": "/blueDogBuilds/static/media/t.2d4612791bfc6c49c958.jpg",
+    "static/media/q.jpg": "/blueDogBuilds/static/media/q.62efa01094e588f9bdbb.jpg",
+    "static/media/o.jpg": "/blueDogBuilds/static/media/o.e51fed98b73ce17451ae.jpg",
+    "static/media/p.jpg": "/blueDogBuilds/static/media/p.a2af114e61e85ee7c873.jpg",
+    "static/media/r.jpg": "/blueDogBuilds/static/media/r.f4b176bf4bc1a1a00a26.jpg",
+    "static/media/k.jpg": "/blueDogBuilds/static/media/k.d1971056e2601e3ff9b4.jpg",
+    "static/media/laser.jpg": "/blueDogBuilds/static/media/laser.61316be78e0464d94c4c.jpg",
     "static/media/amgphoto-0068-1-1024x682.png": "/blueDogBuilds/static/media/amgphoto-0068-1-1024x682.776c40c40ba8b586db16.png",
     "static/media/BDB_Arch-Logo_2-Colour-972x1024.png": "/blueDogBuilds/static/media/BDB_Arch-Logo_2-Colour-972x1024.c20b621a58e559519e60.png",
     "index.html": "/blueDogBuilds/index.html",
-    "main.f2ca8a6e.css.map": "/blueDogBuilds/static/css/main.f2ca8a6e.css.map",
-    "main.afb0e87a.js.map": "/blueDogBuilds/static/js/main.afb0e87a.js.map"
+    "main.047d3817.css.map": "/blueDogBuilds/static/css/main.047d3817.css.map",
+    "main.8e70fedb.js.map": "/blueDogBuilds/static/js/main.8e70fedb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2ca8a6e.css",
-    "static/js/main.afb0e87a.js"
+    "static/css/main.047d3817.css",
+    "static/js/main.8e70fedb.js"
   ]
 }
